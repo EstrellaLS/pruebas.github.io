@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Neucha&display=swap');
+
+:root{
+    --verdeOscuro:#2D8000;
+    --verdePistacho: #ACE100;
+    --verdePastel:#F4FFD1;
+}
+
+a{
+  font-family: 'Neucha', cursive;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Neucha', cursive;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Neucha', cursive;
+}
+
+header{
+    border-bottom: solid 1px var(--verdeOscuro);
+}
+
+header#cabecera>div{  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img{
+    max-width: 65px;
+    margin: 0px 35px
+}
+
+nav{    
+    width: 100%;
+}
+
+ul.enlaces{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+ul.contacto{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 40px 0 0;
+}
+
+ul.enlaces li, ul.contacto li{
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+}
+
+#login{
+    width: 90%;
+    text-align: center;
+    border: 1px transparent;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 199;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login>form input{
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+#login>form div{
+  padding: 15px;
+}
+
+section{
+  padding: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: solid 1px var(--verdeOscuro);
+    background-color: var(--verdePastel);
+    margin-top: 30px;
+}
+
+footer span{
+    font-size: 20px;
+}
+
+div#loc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#loc,div#redes{
+    margin: 10px;
+}
+
+div#loc img{
+    max-width: 44px;
+}
+
+div#loc iframe{
+    margin-top: 20px;
+}
+
+div#loc ul.enlaces{
+  margin: 10px;
+}
+
+#formulario{
+  width: 75%;
+  max-width: 1500px;
+  margin: auto;
+  background-color: #ffffffd9;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#formulario .texto{
+  text-shadow: 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE;
+  color: #000000;
+}
+
+#formulario h2{
+  text-align: center;
+}
+
+textarea{
+  resize:  vertical;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#formulario input{
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0px;
+  margin-left:  15px;
+  margin-bottom: 15px;
+}
+
+fieldset{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  border: none;
+  font-size: 16px;
+  color: #000000;
+  padding: 8px 16px;
+  background-color: #2d80004a;
+  margin: 14px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Neucha', cursive;
+}
+
+button:hover{
+  background: var(--verdeOscuro);
+  color: #FFFFFF;
+}
+
+div#buscador{
+  width: 60%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+#buscador label {
+  z-index: 1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--verdeOscuro);
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+
+#buscador form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#buscador .fa-solid{  
+  position: absolute;
+  top: 19px;
+  right: 17px;
+  color: #FFFFFF;
+}
+
+#buscador input[type="text"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--verdeOscuro);
+  border-radius: 50px;
+  padding-left: 2rem;
+  background: #ace1003b;
+  outline: none;
+}
+
+hr{
+  border-color: var(--verdeOscuro);
+  width: 90%;
+}
+
+#subir {
+  bottom: 1px;
+  right: 20px;
+  position: fixed;
+}
+
+#subir a{  
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* Indicador de navegación -->*/
+.aPag::after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 120%;
+    margin-left: -10%;
+    margin-top: 3px;
+    background: var(--verdeOscuro);
+}
+
+.aPag{
+    color: var(--verdeOscuro) !important;
+}
+
+#cabecera ul.enlaces li:hover{
+  border-bottom: solid 1px var(--verdeOscuro);
+}
+/* <-- */

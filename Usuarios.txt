@@ -1,0 +1,8 @@
+USUARIOS DE LA APLICACIÓN:
+->admin:admin
+->cliente1:cliente1
+->cliente2:cliente2
+->cliente3:cliente3
+->cliente4:cliente4
+->cliente5:cliente5
+->cliente6:cliente6
