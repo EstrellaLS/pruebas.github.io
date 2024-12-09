@@ -1,0 +1,117 @@
+:root{
+    --bs-tertiary-bg-rgb: 221, 255, 206;
+    --bs-border-color-translucent: rgb(74, 153, 0);
+    --bs-body-bg:#dff8dc;
+}
+
+body{
+    background-color: #93ff612d;
+}
+
+/* Cabecera */
+header img{
+    max-width: 60px;
+}
+
+header a:hover:not(.nOver){
+    border-bottom: solid 2px #1a3400;
+}
+
+/* Pie de página */
+footer{
+    background-color: #1a3400d4;
+}
+
+footer span{
+    color: #ddffcea3;
+}
+/* --------- */
+
+#subir {
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 50px;
+}
+
+#subir i{
+    background-color: #466a23;
+    padding: 4px 6px 4px 6px;
+    border-radius: 50%;
+}
+
+main #subir a.ea{
+    color: #ffffff;
+}
+
+#login{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid #1a3400;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 199;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+}
+
+.btn{
+    color: #dff8dc;
+    background-color: #4f9e00;
+}
+
+button.btn:hover{
+    color: #1a3400;
+    background-color: #f5fff0;
+}
+
+article{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid #1a3400;
+}
+
+.logo{
+    width: 3%;
+}
+
+.carrusel{
+    background-color: #dff8dc;
+}
+
+.carrusel img{
+    margin-left: 23%;
+    height: 15rem;
+}
+
+.carrusel .carrFoto{
+    top: 0%;
+    position: absolute;
+    margin-left: 65%;
+}
+
+.maxim{
+    max-width: 230px;
+}
+
+.extra{
+    margin: 4.22% auto;
+}
+
+.formComent input, .formComent button{
+    min-height: 57px;
+}
+
+td{
+    padding: 15px;
+}
+
+table .btn-danger{
+    background-color: #830000;
+}
+
+table .btn-warning{
+    background-color: #836400;
+}
